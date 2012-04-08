@@ -125,7 +125,7 @@ package
 				FlxG.switchState(new FailState());		//loads into the failstate screen.  MENU
 			}
 			
-			if(FlxG.score > 1)		//Kill 10 enemies to win.
+			if(FlxG.score > 999)		//Kill 10 enemies to win.
 				FlxG.switchState(new WinState());		//loads into the winstate screen.  MENU
 		}
 		
